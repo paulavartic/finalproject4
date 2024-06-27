@@ -15,6 +15,9 @@ class HH(Parser):
         self.params = {'text': keyword, 'page': 0, 'per_page': 100}
 
     def load_vacancies(self):
+
+        """function loads vacancies into json file"""
+
         vacancies = []
 
         while self.params.get('page') != 20:

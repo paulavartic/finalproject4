@@ -17,6 +17,8 @@ class UserInteraction:
         return sort_by_salary[:n]
 
     def get_vacancy_by_description(self):
+        """getting the keyword from user to search for vacancies by keyword"""
+
         keyword = input("Введите слово")
         res = []
         for vacancy in self.vacancy_list:
