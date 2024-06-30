@@ -9,14 +9,13 @@ class Parser(ABC):
 
 
 class HH(Parser):
+    """loading vacancies to json file"""
     def __init__(self, keyword):
         self.url = 'https://api.hh.ru/vacancies'
         self.headers = {'User-Agent': 'HH-User-Agent'}
         self.params = {'text': keyword, 'page': 0, 'per_page': 100}
 
     def load_vacancies(self):
-
-        """function loads vacancies into json file"""
 
         vacancies = []
 

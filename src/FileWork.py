@@ -19,6 +19,7 @@ class FileWork(ABC):
 
 
 class WorkWithJson(FileWork):
+    """creating json file with vacancies from website"""
     def __init__(self):
         self.file_name = ""
         self.abs_path = os.path.abspath("../finalproject4/data/vacancies.json")
