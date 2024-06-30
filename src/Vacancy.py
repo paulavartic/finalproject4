@@ -1,5 +1,5 @@
 class Vacancy:
-    def __init__(self, name: str, url: str, salary:int | None, snippet: str | None):
+    def __init__(self, name: str, url: str, salary: int | None, snippet: str | None):
         self.name: str = name
         self.url: str = url
         self.salary: int = self.__data_validation(salary)
@@ -20,7 +20,10 @@ class Vacancy:
             return False
 
     def __str__(self):
-        return f"Вакансия: {self.name}\nСсылка: {self.url}\nЗарплата от:{self.salary if self.salary else 'Не указано'}\nТребования: {self.snippet}"
+        return (f"Вакансия: {self.name}\n"
+                f"Ссылка: {self.url}\n"
+                f"Зарплата от:{self.salary if self.salary else 'Не указано'}\n"
+                f"Требования: {self.snippet}")
 
     @classmethod
     def new_vacancy(cls, vacancy):
@@ -35,6 +38,3 @@ class Vacancy:
             salary = 0
         snippet = vacancy.get("snippet").get("requirement")
         return cls(name, url, salary, snippet)
-
-
-
