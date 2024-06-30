@@ -7,10 +7,12 @@ class UserInteraction:
 
     @staticmethod
     def search_vacancy(keyword):
+        """searching for vacancies based on users request"""
         hh = HH(keyword)
         return hh.load_vacancies()
 
     def get_top_n(self, n):
+        """getting the requested number of vacancies from user"""
         sort_by_salary = list(sorted(self.vacancy_list, key=lambda x: x.salary, reverse=True))
         return sort_by_salary[:n]
 
