@@ -1,0 +1,79 @@
+{
+    "id": "96008908",
+    "premium": false,
+    "name": "Архитектор",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+        "id": "1",
+        "name": "Москва",
+        "url": "https://api.hh.ru/areas/1"
+    },
+    "salary": null,
+    "type": {
+        "id": "open",
+        "name": "Открытая"
+    },
+    "address": null,
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2024-06-27T16:49:04+0300",
+    "created_at": "2024-06-27T16:49:04+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=96008908",
+    "branding": {
+        "type": "MAKEUP",
+        "tariff": null
+    },
+    "show_logo_in_search": true,
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/96008908?host=hh.ru",
+    "alternate_url": "https://hh.ru/vacancy/96008908",
+    "relations": [],
+    "employer": {
+        "id": "78638",
+        "name": "Т-Банк",
+        "url": "https://api.hh.ru/employers/78638",
+        "alternate_url": "https://hh.ru/employer/78638",
+        "logo_urls": {
+            "90": "https://img.hhcdn.ru/employer-logo/6761534.png",
+            "original": "https://img.hhcdn.ru/employer-logo-original/1285309.png",
+            "240": "https://img.hhcdn.ru/employer-logo/6761535.png"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=78638",
+        "accredited_it_employer": false,
+        "trusted": true
+    },
+    "snippet": {
+        "requirement": "Хорошо разбираетесь в одном из стеков разработки — .NET, Java, <highlighttext>Python</highlighttext>, Go, Scala, C++ — и готовы писать код. Есть навыки проектирования...",
+        "responsibility": "Обсуждать требования и участвовать в планировании развития нескольких продуктов. Проектировать архитектуру решений, составлять и защищать дизайн-документы. Оптимизировать инженерные процессы..."
+    },
+    "contacts": null,
+    "schedule": {
+        "id": "fullDay",
+        "name": "Полный день"
+    },
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "professional_roles": [
+        {
+            "id": "14",
+            "name": "Архитектор"
+        }
+    ],
+    "accept_incomplete_resumes": false,
+    "experience": {
+        "id": "moreThan6",
+        "name": "Более 6 лет"
+    },
+    "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+    },
+    "adv_response_url": null,
+    "is_adv_vacancy": false,
+    "adv_context": null
+}
